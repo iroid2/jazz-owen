@@ -1,0 +1,46 @@
+.hero-section {
+  background: url("/thumbnails/african-elephants-together-nature.webp");
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 8rem;
+  background-position: center center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h1 {
+    font-size: clamp(3rem, 8vw, 5rem);
+    text-transform: uppercase;
+    color: $brown-gray;
+    font-family: $secondary-font;
+  }
+  h2 {
+    color: $brown-gray;
+    font-family: $secondary-font;
+    @media (max-width: 480px) {
+      font-size: 1.2rem;
+    }
+  }
+  .mt-3 {
+    margin-top: 3rem;
+  }
+  a {
+    // background: linear-gradient(to right, $brown-gray, $green);
+    background: $green;
+    color: $brown-gray;
+    padding: 1rem 3rem;
+    border-radius: 3rem;
+    color: $brown-gray;
+    text-transform: uppercase;
+    font-weight: 500;
+    @media (max-width: 768px) {
+      padding: 1rem;
+    }
+    @media (max-width: 480px) {
+      background: $green;
+      color: $brown-gray;
+      font-size: 0.8rem;
+    }
+  }
+}

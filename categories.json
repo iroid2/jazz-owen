@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Tented Camp Safaris",
+      "slug":"tented-camp-safaris",
+      "image": "/images/tent02.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Game Lodge Safaris",
+      "slug":"game-lodge-safaris",
+      "image": "/images/tent03.webp"
+    },
+    {
+      "id": 3,
+      "title": "Family Friendly",
+      "slug":"family-friendly",
+      "image": "/images/tent04.webp"
+    }
+  ]
+}
